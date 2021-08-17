@@ -1,0 +1,20 @@
+.container .item {
+    width: 600px;
+    height: 600px;
+    color: yellowgreen;
+    border: 2px solid black;
+    line-height: 2;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    background-color: royalblue;
+    margin: 10px;
+    background-image: url(../image/001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .item:nth-child(2) {
+    font-weight: bold;
+    text-decoration: underline;
+}

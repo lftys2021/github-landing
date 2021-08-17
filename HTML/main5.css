@@ -1,0 +1,13 @@
+.container {
+    width: 300px;
+    margin: auto;
+    background-color: aquamarine;
+}
+.container .btn {
+    display: inline-block;
+    padding: 10px;
+    background-color: rosybrown;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}

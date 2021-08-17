@@ -1,0 +1,23 @@
+.container {
+    width: 500px;
+    background-color: rebeccapurple;
+}
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 3s;
+}
+.container .item:nth-child(1):hover {
+    width: 200px;
+    background-color: antiquewhite;
+}
+.container .item:nth-child(2) {
+    transform: rotate(45deg) scale(0.8);
+}
+.container .item:nth-child(3) {
+    transform: perspective(100px) rotateX(30deg);
+}
